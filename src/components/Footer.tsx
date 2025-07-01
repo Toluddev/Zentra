@@ -36,10 +36,13 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-2">
-              <div className="w-25 h-20 flex items-center justify-center">
-              <img src='/assets/Futuristic Lettermark Logo for Zenra Platform.png' 
-              className='w-full h-full'/>
-            </div>
+              <div className="h-16 flex items-center justify-center">
+                <img 
+                  src="/assets/Futuristic Lettermark Logo for Zenra Platform.png" 
+                  alt="Zentra Logo"
+                  className="h-full max-w-[150px] object-contain"
+                />
+              </div>
             </div>
             <p className="text-dark-300 text-sm leading-relaxed mb-6">
               Master your financial future with intelligent insights. Organize, visualize, and optimize your finances with confidence.
