@@ -52,14 +52,24 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Overlay Menu */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 bg-black/95 text-white backdrop-blur-xl flex flex-col items-center justify-start pt-32 space-y-10 text-center px-6 overflow-y-auto transition-all duration-300">
-          <a href="#features" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Features</a>
-          <a href="#testimonials" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Testimonials</a>
-          <a href="#process" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Process</a>
-          <a href="#pricing" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Pricing</a>
-          <a href="#faq" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">FAQ</a>
-        </div>
-      )}
+          <div className="fixed inset-0 z-50 bg-black/95 text-white backdrop-blur-xl overflow-y-auto transition-all duration-300">
+            {/* Close Button */}
+            <div className="flex justify-end px-6 pt-6">
+              <button onClick={() => setMenuOpen(false)} className="text-white">
+                <X size={28} />
+              </button>
+            </div>
+
+            {/* Menu Links */}
+            <div className="flex flex-col items-center justify-start text-center pt-12 space-y-10 px-6">
+              <a href="#features" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Features</a>
+              <a href="#testimonials" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Testimonials</a>
+              <a href="#process" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Process</a>
+              <a href="#pricing" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">Pricing</a>
+              <a href="#faq" onClick={() => setMenuOpen(false)} className="text-2xl font-semibold hover:text-teal-400 transition">FAQ</a>
+            </div>
+          </div>
+        )}
     </>
   );
 };

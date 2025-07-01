@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               {/* <div className="absolute inset-0 bg-gradient-to-r from-teal-500/20 to-aqua-500/20 rounded-2xl blur-2xl transform scale-105"></div> */}
               <div className="relative backdrop-blur-sm rounded-2xl shadow-xl">
                 <img 
-                  src="src/assets/IMG_3292.PNG" 
+                  src="src/assets/IMG_3292.jpg" 
                   alt="Zentra Dashboard" 
                   className="w-full h-auto rounded-xl shadow-2xl"
                 />

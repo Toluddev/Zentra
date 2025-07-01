@@ -28,7 +28,7 @@ const CoreFeaturesSection: React.FC = () => {
           <div className="relative">
             <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl shadow-2xl">
               <img 
-                src="src/assets/A_digital_screenshot_of_Zentra's_analytics_dashboa.png" 
+                src="src/assets/A_digital_screenshot_of_Zentra's_analytics_dashboa.jpg" 
                 alt="Analytics Dashboard" 
                 className="w-full h-auto rounded-xl shadow-2xl"
               />
@@ -44,7 +44,7 @@ const CoreFeaturesSection: React.FC = () => {
           <div className="relative order-2 lg:order-1">
             <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl shadow-2xl">
               <img 
-                src="src/assets/A_digital_screenshot_of_Marcus's_financial_dashboa.png" 
+                src="src/assets/A_digital_screenshot_of_Marcus's_financial_dashboa.jpg" 
                 alt="Card Management" 
                 className="w-full h-auto rounded-xl shadow-2xl"
               />
@@ -80,7 +80,7 @@ const CoreFeaturesSection: React.FC = () => {
           <div className="relative">
             <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl shadow-2xl">
               <img 
-                src="src/assets/IMG_3295.PNG" 
+                src="src/assets/IMG_3295.jpg" 
                 alt="Budgeting Interface" 
                 className="w-full h-auto rounded-xl shadow-2xl"
               />
