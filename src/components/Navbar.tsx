@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="w-24 h-16 flex items-center justify-center">
                 <img
-                  src="src/assets/Futuristic Lettermark Logo for Zenra Platform.png"
+                  src="/assets/Futuristic Lettermark Logo for Zenra Platform.png"
                   alt="Logo"
                   className="w-full h-full object-contain"
                 />

@@ -1,18 +1,18 @@
 import React from 'react';
 
 const logosRow1 = [
-  'src/assets/Untitled design (3).png',
-  'src/assets/Untitled design (8).png',
-  'src/assets/Untitled design (7).png',
-  'src/assets/Untitled design (6).png',
-  'src/assets/Untitled design (5).png',
+  '/assets/Untitled design (3).png',
+  '/assets/Untitled design (8).png',
+  '/assets/Untitled design (7).png',
+  '/assets/Untitled design (6).png',
+  '/assets/Untitled design (5).png',
 ];
 
 const logosRow2 = [
-  'src/assets/Untitled design (4).png',
-  'src/assets/Untitled design (2).png',
-  'src/assets/Untitled design (1).png',
-  'src/assets/Untitled design.png',
+  '/assets/Untitled design (4).png',
+  '/assets/Untitled design (2).png',
+  '/assets/Untitled design (1).png',
+  '/assets/Untitled design.png',
 ];
 
 const SocialProof: React.FC = () => {

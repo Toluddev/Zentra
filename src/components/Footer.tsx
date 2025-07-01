@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-2">
               <div className="w-25 h-20 flex items-center justify-center">
-              <img src='src/assets/Futuristic Lettermark Logo for Zenra Platform.png' 
+              <img src='/assets/Futuristic Lettermark Logo for Zenra Platform.png' 
               className='w-full h-full'/>
             </div>
             </div>
