@@ -41,7 +41,6 @@ const Features: React.FC = () => {
         <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
             Why Choose Zentra?
-            
             </h2>
         </div>
 
