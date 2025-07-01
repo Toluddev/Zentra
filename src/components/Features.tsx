@@ -39,10 +39,9 @@ const Features: React.FC = () => {
     <section className="py-24 bg-black">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
-            Why Choose Zentra
-            
-          </h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-8">
+            Why Choose Zentra?
+            </h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
