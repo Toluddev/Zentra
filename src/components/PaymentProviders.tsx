@@ -84,7 +84,7 @@ const PaymentProviders: React.FC = () => {
           <div className="relative">
             <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl shadow-2xl">
               <img 
-                src="src/assets/Screenshot 2025-07-01 at 03.31.40.png" 
+                src="/assets/Screenshot 2025-07-01 at 03.31.40.jpg" 
                 alt="Payment Providers Dashboard" 
                 className="w-full h-auto rounded-xl shadow-2xl"
               />
