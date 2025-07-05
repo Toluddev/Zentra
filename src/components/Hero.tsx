@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="font-serif text-5xl md:text-6xl lg:text-5xl font-bold text-white mb-12 leading-tight animate-slide-up">
+          <h1 className="font-serif text-5xl md:text-6xl lg:text-6xl font-bold text-white mb-12 leading-tight animate-slide-up">
             Master your financial future
             <br />
             <span className="bg-[#2bd4b3]  to-aqua-600 bg-clip-text font-inter text-transparent">
